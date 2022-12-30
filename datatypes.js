@@ -117,6 +117,13 @@ let numInt6 = parseInt(num6)
 
 console.log(numInt6) // 9
 
+
+let x=10
+console.log(x.toFixed(2))
+console.log(typeof x)//number
+let bb = x.toString()
+console.log(typeof bb)//string
+
 console.log("----------------------3.Day------------------///")
 
 let firstName
@@ -167,6 +174,9 @@ const minutes = now4.getMinutes() // return number (0 -59)
 
 console.log(`${date}/${month}/${year} ${hours}:${minutes}`)
 
+let today=new Date()
+
+console.log(today.toString())
 
 //---------------------Koşullar  4.GÜn DAY 4----------------------//
 let a1 = prompt("sayı gir:"," sayıya bakalım")
