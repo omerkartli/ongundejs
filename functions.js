@@ -125,3 +125,10 @@ const plantNeedsWater1 = (day) => {
 
 const plantNeedsWater2 = day => day === 'Wednesday' ? true : false;
 console.log(plantNeedsWater2('Wednesday'));
+
+
+console.log("----Higher Order Function-----")
+console.log("----Higher Order Function-----")
+console.log("----Higher Order Function-----")
+console.log("----Higher Order Function-----")
+console.log("----Higher Order Function-----")
