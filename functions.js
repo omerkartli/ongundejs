@@ -2,6 +2,11 @@ console.log("---------------------Functions-----------------------")
 console.log("---------------------Functions-----------------------")
 console.log("---------------------Functions-----------------------")
 console.log("---------------------Functions-----------------------")
+
+const examplefuncname=()=>{
+    console.log("Örnek arrow fonsiyon tanımı")
+}
+
 function generator(input){
     var number=input;
     return function(){
@@ -132,3 +137,35 @@ console.log("----Higher Order Function-----")
 console.log("----Higher Order Function-----")
 console.log("----Higher Order Function-----")
 console.log("----Higher Order Function-----")
+
+const a4 = s1 => {
+    const b4 = s2 => {
+        const c4 = s3 => {
+            return s1+s2+s3 
+        }
+        return c4
+    }
+    return b4
+}
+console.log( a4(5)(13)(5) )
+
+const numbers3=[1,2,3,4,5]
+let total=0;
+numbers3.forEach(function(number35){ // bu şuna eşit 
+    //"numbers3.forEach(number35=> total+=number)" buna eşit
+    total+=number35;
+})
+console.log(total)
+
+
+//function saySa(){
+//    console.log("SA");
+//}
+//setInterval(saySa,1000)// 1sn her saniyede bir sa
+//setTimeout(saySa,5000)//5sn sonra de sınra sal
+//clearInterval(saySa)
+
+//setTimeout(()=>{
+   // clearInterval(saySa)
+   // console.log('interval sonlandı')
+//},5000)// 5 sn sonra içalış
