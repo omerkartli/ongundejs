@@ -1,0 +1,31 @@
+{
+    "users":[
+      {
+        "firstName":"Ömer",
+        "lastName":"Kartlı",
+        "age":24,
+        "email":"amk@gmail..com"
+      },
+      {
+        "firstName":"osman",
+        "lastName":"bağcı",
+        "age":29,
+        "email":"osm@gmail.com"
+      },
+      {
+      "firstName":"Yasbu",
+      "lastName":"buzgu",
+      "age":22,
+      "email":"yasbu@gmail.com"
+      },
+      {
+        "name":"CSS",
+        "count":5,
+        "date":"2023-01-11T07:51:58.781Z"
+      },
+      {
+        "neme":"JS",
+        "count":3,
+        "date":"2023-01-11T07:51:58.781Z"}]
+}
+    
